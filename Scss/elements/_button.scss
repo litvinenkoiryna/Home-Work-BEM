@@ -1,0 +1,18 @@
+@import "variables";
+.blockfresh__btn {
+  width: 200px;
+  height: 52px;
+  font-size: 20px;
+  line-height: 40px;
+  color: $white;
+  font-weight: 300;
+  background-color: $orange;
+  text-align: center;
+  padding-top: 9px;
+  margin-top: 22px;
+
+  .btn-getfreenow{
+    color:$white;
+
+  }
+}

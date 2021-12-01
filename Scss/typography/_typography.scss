@@ -1,0 +1,42 @@
+h2{
+  font-size: 55px;
+  line-height: 12px;
+  color: $black;
+  font-weight:800;
+  font-family:$f-f;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 6px;
+  -webkit-text-stroke-color: $black;
+  letter-spacing: 4px;
+  }
+
+h2.about__title{
+  font-size: 77px;
+  color:$white;
+  letter-spacing: 9px;
+  line-height: 12px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: $white;
+  margin-left: 12px;
+}
+p{
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+.blockfresh__paragraph{
+    color:$black;
+  }
+
+.about__paragraph{
+  color:$white;
+  margin-top: -26px;
+  margin-bottom: 4px ;
+  margin-left: 10px;
+    }
+.about__paragraph-two{
+  margin-bottom: 39px;
+}
+

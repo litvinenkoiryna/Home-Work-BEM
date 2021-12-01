@@ -1,0 +1,30 @@
+@import "variables";
+a{
+  text-decoration: none;
+  align-items: center;
+}
+
+.nav {
+  &__list{
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+  font-family: $f-f;
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+}
+   &__list-item {
+    margin-right:37px;
+    margin-top: -5px;
+    border-top: 3px solid $light;
+     &:hover {
+       border-top-color: $redline;
+     }
+     .nav__link{
+       color: $black;
+     }
+   }
+
+}
+

@@ -1,0 +1,45 @@
+//*{
+//  box-sizing: border-box;
+//
+.blockfresh{
+  max-width: 1500px;
+  min-width: 320px;
+  height:63vh;
+  background-image: url("../img/freshh.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -103px;
+  margin-left: 3px;
+     &__text {
+       max-width: 19%;
+       position: absolute;
+       top: 332px;
+       left: 171px;
+     }
+  }
+.conteigner__about{
+  min-width: 320px;
+  max-width: 1500px;
+  margin: auto;
+  position: relative
+}
+ .about{
+  max-width: 508px;
+  min-width: 100px;
+  width: 24%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 41%;
+  bottom: 4%;
+  text-align: left;
+   margin-top: 15px;
+
+}
+ .about__img{
+   width: 100%;
+   height: auto;
+   float: right;
+
+ }
