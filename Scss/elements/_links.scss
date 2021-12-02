@@ -17,7 +17,7 @@ a{
    &__list-item {
     margin-right:37px;
     margin-top: -5px;
-    border-top: 3px solid $light;
+    border-top: 3px solid transparent;
      &:hover {
        border-top-color: $redline;
      }

@@ -3,8 +3,8 @@
   max-width: 1200px;
   min-width: 320px;
   display: flex;
-  padding-left: 168px;
-  padding-top: 29px;
+  padding-left: 163px;
+  padding-top: 46px;
   padding-bottom: 101px;
   justify-content: space-between;
   position: fixed;
@@ -18,13 +18,13 @@
   max-width: 1500px;
   min-width: 333px;
   position: relative;
-  top: -17px;
+  top: -6px;
 }
 .blockfresh__text {
   max-width: 24%;
   position: absolute;
-  top: 323px;
-  left: 165px;
+  top: 336px;
+  left: 161px;
 }
 
 .conteigner__about {
@@ -71,7 +71,7 @@ a {
 .nav__list-item {
   margin-right: 37px;
   margin-top: -5px;
-  border-top: 3px solid #faf9fb;
+  border-top: 3px solid transparent;
 }
 .nav__list-item:hover {
   border-top-color: #ff6033;
