@@ -3,7 +3,13 @@
   max-width: 1200px;
   min-width: 320px;
   display: flex;
-  padding-left: 163px;
-  padding-top: 38px;
+  padding-left: 168px;
+  padding-top: 29px;
+  padding-bottom: 101px;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  &__nav{
+    margin-left: 455px;
+  }
  }

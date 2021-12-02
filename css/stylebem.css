@@ -3,26 +3,28 @@
   max-width: 1200px;
   min-width: 320px;
   display: flex;
-  padding-left: 163px;
-  padding-top: 38px;
+  padding-left: 168px;
+  padding-top: 29px;
+  padding-bottom: 101px;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+}
+.header__nav {
+  margin-left: 455px;
 }
 
 .blockfresh {
   max-width: 1500px;
-  min-width: 320px;
-  height: 63vh;
-  background-image: url("../img/freshh.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-top: -103px;
-  margin-left: 3px;
+  min-width: 333px;
+  position: relative;
+  top: -17px;
 }
 .blockfresh__text {
-  max-width: 19%;
+  max-width: 24%;
   position: absolute;
-  top: 332px;
-  left: 171px;
+  top: 323px;
+  left: 165px;
 }
 
 .conteigner__about {
@@ -35,13 +37,13 @@
 .about {
   max-width: 508px;
   min-width: 100px;
-  width: 24%;
+  width: 34%;
   height: auto;
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 41%;
-  bottom: 4%;
+  right: 166px;
+  bottom: -512px;
   text-align: left;
   margin-top: 15px;
 }
@@ -150,7 +152,9 @@ p {
 body {
   max-width: 1500px;
   min-width: 320px;
+  height: auto;
   font-family: "Raleway";
+  background-color: #f9f9fb;
 }
 
 /*# sourceMappingURL=stylebem.css.map */

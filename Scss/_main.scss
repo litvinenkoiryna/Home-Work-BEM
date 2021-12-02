@@ -3,38 +3,36 @@
 //
 .blockfresh{
   max-width: 1500px;
-  min-width: 320px;
-  height:63vh;
-  background-image: url("../img/freshh.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-top: -103px;
-  margin-left: 3px;
+  min-width: 333px;
+  position: relative;
+  top:-17px;
+
      &__text {
-       max-width: 19%;
+       max-width: 24%;
        position: absolute;
-       top: 332px;
-       left: 171px;
+       top: 323px;
+       left:165px;
      }
-  }
+}
 .conteigner__about{
   min-width: 320px;
   max-width: 1500px;
   margin: auto;
-  position: relative
-}
+  position: relative;
+ }
+
  .about{
   max-width: 508px;
   min-width: 100px;
-  width: 24%;
+  width: 34%;
   height: auto;
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 41%;
-  bottom: 4%;
+  right: 166px;
+  bottom: -512px;
   text-align: left;
-   margin-top: 15px;
+  margin-top: 15px;
 
 }
  .about__img{
